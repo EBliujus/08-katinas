@@ -1,0 +1,11 @@
+header {
+         background-color: brown;
+         width: 800px;
+         margin-left: calc(50% - 400px);
+}
+main {
+        background-color: yellow;
+        width: 800px;
+        margin-left: calc(50% - 400px);
+
+}
