@@ -1,10 +1,41 @@
-header {
-         background-color: brown;
-         width: 800px;
-         margin-left: calc(50% - 400px);
+body {
+        margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+header,
 main {
         background-color: yellow;
         width: 800px;
         margin-left: calc(50% - 400px);
+        margin-bottom: 30px;
+        display: inline-block;
+}
+
+header {
+        margin-top: 40px;
+}
+img {
+        width: 80px;
+        height: 40px;
+        float: left;
+        object-fit: contain;
+        object-position: left;
+}
+nav {
+        float: right;
+        margin-top: 10px;
+}
+a {
+        color: #000;
+        display: inline-block;
+        margin-left: 2em;
+        font-size: 20px;
+        line-height: 1em;
+        text-decoration: none;
+}
+a:first-child {
+        margin-left: 0;
+}
+a:hover {
+        text-decoration: underline;
 }
