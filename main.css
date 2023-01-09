@@ -38,10 +38,6 @@ nav > a:first-child {
 nav > a:hover {
         text-decoration: underline;
 }
-main {
-
-}
-
 div {
         width: 50%;
         float: left;
